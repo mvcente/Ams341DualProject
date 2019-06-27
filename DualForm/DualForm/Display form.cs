@@ -48,6 +48,7 @@ namespace DualForm
             cbConBoxes = new ComboBox[] { cbCon1, cbCon2, cbCon3, cbCon4, cbCon5, cbCon6, cbCon7};
             cbDecBoxes = new ComboBox[] { cbDec1, cbDec2, cbDec3, cbDec4, cbDec5, cbDec6, cbDec7 };
             this.Size = new System.Drawing.Size(150 + (dec + 2) * (horizontal), vertical * (con + 2) + 150);
+            btnSolve.Location = new Point(50 + (dec + 2) * (horizontal), vertical * (con + 2) + 50);
             for (int i = 0; i < con; i++)
             {
                 lblCon[i] = new Label();
@@ -131,6 +132,11 @@ namespace DualForm
         private void CbCon3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnSolve_Click(object sender, EventArgs e)
+        {
+            //Convert the LP
         }
     }
 }

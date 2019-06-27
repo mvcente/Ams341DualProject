@@ -37,16 +37,17 @@
             this.cbCon7 = new System.Windows.Forms.ComboBox();
             this.panelCon = new System.Windows.Forms.Panel();
             this.panelDec = new System.Windows.Forms.Panel();
-            this.cbDec1 = new System.Windows.Forms.ComboBox();
-            this.cbDec2 = new System.Windows.Forms.ComboBox();
-            this.cbDec3 = new System.Windows.Forms.ComboBox();
-            this.cbDec4 = new System.Windows.Forms.ComboBox();
-            this.cbDec5 = new System.Windows.Forms.ComboBox();
-            this.cbDec6 = new System.Windows.Forms.ComboBox();
             this.cbDec7 = new System.Windows.Forms.ComboBox();
+            this.cbDec6 = new System.Windows.Forms.ComboBox();
+            this.cbDec5 = new System.Windows.Forms.ComboBox();
+            this.cbDec4 = new System.Windows.Forms.ComboBox();
+            this.cbDec3 = new System.Windows.Forms.ComboBox();
+            this.cbDec2 = new System.Windows.Forms.ComboBox();
+            this.cbDec1 = new System.Windows.Forms.ComboBox();
             this.lblST = new System.Windows.Forms.Label();
             this.cbLP = new System.Windows.Forms.ComboBox();
             this.tbLP = new System.Windows.Forms.TextBox();
+            this.btnSolve = new System.Windows.Forms.Button();
             this.panelCon.SuspendLayout();
             this.panelDec.SuspendLayout();
             this.SuspendLayout();
@@ -178,70 +179,18 @@
             this.panelDec.TabIndex = 8;
             this.panelDec.Visible = false;
             // 
-            // cbDec1
+            // cbDec7
             // 
-            this.cbDec1.FormattingEnabled = true;
-            this.cbDec1.Items.AddRange(new object[] {
+            this.cbDec7.FormattingEnabled = true;
+            this.cbDec7.Items.AddRange(new object[] {
             "≤ ",
             "≥",
             "urs"});
-            this.cbDec1.Location = new System.Drawing.Point(0, 0);
-            this.cbDec1.Name = "cbDec1";
-            this.cbDec1.Size = new System.Drawing.Size(42, 24);
-            this.cbDec1.TabIndex = 0;
-            this.cbDec1.Visible = false;
-            // 
-            // cbDec2
-            // 
-            this.cbDec2.FormattingEnabled = true;
-            this.cbDec2.Items.AddRange(new object[] {
-            "≤ ",
-            "≥",
-            "urs"});
-            this.cbDec2.Location = new System.Drawing.Point(44, 0);
-            this.cbDec2.Name = "cbDec2";
-            this.cbDec2.Size = new System.Drawing.Size(42, 24);
-            this.cbDec2.TabIndex = 1;
-            this.cbDec2.Visible = false;
-            // 
-            // cbDec3
-            // 
-            this.cbDec3.FormattingEnabled = true;
-            this.cbDec3.Items.AddRange(new object[] {
-            "≤ ",
-            "≥",
-            "urs"});
-            this.cbDec3.Location = new System.Drawing.Point(88, 0);
-            this.cbDec3.Name = "cbDec3";
-            this.cbDec3.Size = new System.Drawing.Size(42, 24);
-            this.cbDec3.TabIndex = 2;
-            this.cbDec3.Visible = false;
-            // 
-            // cbDec4
-            // 
-            this.cbDec4.FormattingEnabled = true;
-            this.cbDec4.Items.AddRange(new object[] {
-            "≤ ",
-            "≥",
-            "urs"});
-            this.cbDec4.Location = new System.Drawing.Point(132, 0);
-            this.cbDec4.Name = "cbDec4";
-            this.cbDec4.Size = new System.Drawing.Size(42, 24);
-            this.cbDec4.TabIndex = 3;
-            this.cbDec4.Visible = false;
-            // 
-            // cbDec5
-            // 
-            this.cbDec5.FormattingEnabled = true;
-            this.cbDec5.Items.AddRange(new object[] {
-            "≤ ",
-            "≥",
-            "urs"});
-            this.cbDec5.Location = new System.Drawing.Point(176, 0);
-            this.cbDec5.Name = "cbDec5";
-            this.cbDec5.Size = new System.Drawing.Size(42, 24);
-            this.cbDec5.TabIndex = 4;
-            this.cbDec5.Visible = false;
+            this.cbDec7.Location = new System.Drawing.Point(265, 0);
+            this.cbDec7.Name = "cbDec7";
+            this.cbDec7.Size = new System.Drawing.Size(42, 24);
+            this.cbDec7.TabIndex = 6;
+            this.cbDec7.Visible = false;
             // 
             // cbDec6
             // 
@@ -256,18 +205,70 @@
             this.cbDec6.TabIndex = 5;
             this.cbDec6.Visible = false;
             // 
-            // cbDec7
+            // cbDec5
             // 
-            this.cbDec7.FormattingEnabled = true;
-            this.cbDec7.Items.AddRange(new object[] {
+            this.cbDec5.FormattingEnabled = true;
+            this.cbDec5.Items.AddRange(new object[] {
             "≤ ",
             "≥",
             "urs"});
-            this.cbDec7.Location = new System.Drawing.Point(265, 0);
-            this.cbDec7.Name = "cbDec7";
-            this.cbDec7.Size = new System.Drawing.Size(42, 24);
-            this.cbDec7.TabIndex = 6;
-            this.cbDec7.Visible = false;
+            this.cbDec5.Location = new System.Drawing.Point(176, 0);
+            this.cbDec5.Name = "cbDec5";
+            this.cbDec5.Size = new System.Drawing.Size(42, 24);
+            this.cbDec5.TabIndex = 4;
+            this.cbDec5.Visible = false;
+            // 
+            // cbDec4
+            // 
+            this.cbDec4.FormattingEnabled = true;
+            this.cbDec4.Items.AddRange(new object[] {
+            "≤ ",
+            "≥",
+            "urs"});
+            this.cbDec4.Location = new System.Drawing.Point(132, 0);
+            this.cbDec4.Name = "cbDec4";
+            this.cbDec4.Size = new System.Drawing.Size(42, 24);
+            this.cbDec4.TabIndex = 3;
+            this.cbDec4.Visible = false;
+            // 
+            // cbDec3
+            // 
+            this.cbDec3.FormattingEnabled = true;
+            this.cbDec3.Items.AddRange(new object[] {
+            "≤ ",
+            "≥",
+            "urs"});
+            this.cbDec3.Location = new System.Drawing.Point(88, 0);
+            this.cbDec3.Name = "cbDec3";
+            this.cbDec3.Size = new System.Drawing.Size(42, 24);
+            this.cbDec3.TabIndex = 2;
+            this.cbDec3.Visible = false;
+            // 
+            // cbDec2
+            // 
+            this.cbDec2.FormattingEnabled = true;
+            this.cbDec2.Items.AddRange(new object[] {
+            "≤ ",
+            "≥",
+            "urs"});
+            this.cbDec2.Location = new System.Drawing.Point(44, 0);
+            this.cbDec2.Name = "cbDec2";
+            this.cbDec2.Size = new System.Drawing.Size(42, 24);
+            this.cbDec2.TabIndex = 1;
+            this.cbDec2.Visible = false;
+            // 
+            // cbDec1
+            // 
+            this.cbDec1.FormattingEnabled = true;
+            this.cbDec1.Items.AddRange(new object[] {
+            "≤ ",
+            "≥",
+            "urs"});
+            this.cbDec1.Location = new System.Drawing.Point(0, 0);
+            this.cbDec1.Name = "cbDec1";
+            this.cbDec1.Size = new System.Drawing.Size(42, 24);
+            this.cbDec1.TabIndex = 0;
+            this.cbDec1.Visible = false;
             // 
             // lblST
             // 
@@ -299,11 +300,22 @@
             this.tbLP.Size = new System.Drawing.Size(43, 22);
             this.tbLP.TabIndex = 11;
             // 
+            // btnSolve
+            // 
+            this.btnSolve.Location = new System.Drawing.Point(595, 283);
+            this.btnSolve.Name = "btnSolve";
+            this.btnSolve.Size = new System.Drawing.Size(76, 30);
+            this.btnSolve.TabIndex = 12;
+            this.btnSolve.Text = "Solve";
+            this.btnSolve.UseVisualStyleBackColor = true;
+            this.btnSolve.Click += new System.EventHandler(this.BtnSolve_Click);
+            // 
             // Display_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(781, 450);
+            this.Controls.Add(this.btnSolve);
             this.Controls.Add(this.tbLP);
             this.Controls.Add(this.cbLP);
             this.Controls.Add(this.lblST);
@@ -340,5 +352,6 @@
         private System.Windows.Forms.Label lblST;
         private System.Windows.Forms.ComboBox cbLP;
         private System.Windows.Forms.TextBox tbLP;
+        private System.Windows.Forms.Button btnSolve;
     }
 }
