@@ -1,0 +1,11 @@
+C:\Users\Manma\source\repos\DualForm\DualForm\bin\Debug\DualForm.exe.config
+C:\Users\Manma\source\repos\DualForm\DualForm\bin\Debug\DualForm.exe
+C:\Users\Manma\source\repos\DualForm\DualForm\bin\Debug\DualForm.pdb
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.Form1.resources
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.Properties.Resources.resources
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.csproj.GenerateResource.cache
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.csproj.CoreCompileInputs.cache
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.exe
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.pdb
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.Display_form.resources
+C:\Users\Manma\source\repos\DualForm\DualForm\obj\Debug\DualForm.csprojAssemblyReference.cache
